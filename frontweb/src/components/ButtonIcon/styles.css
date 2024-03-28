@@ -1,0 +1,68 @@
+.btn-container-desafio {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 28px 0px 0px 0px;
+  border-radius: 10px;
+  background: rgba(237, 237, 237, 1);
+}
+
+.btn-icon-desafio {
+  border-radius: 5px;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  height: 40px;
+  background: #00285f;
+}
+
+.btn h6 {
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.btn-description-text {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #ededed;
+}
+
+.btn-description-text p {
+  padding: 10px 15px;
+  width: 200px;
+  height: 21px;
+  color: #585858;
+  font-size: 1em;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+  .btn-container-desafio {
+    padding: 60px 20px 60px 55px;
+    flex-direction: row;
+  }
+
+  .btn-icon-desafio {
+    width: 200px;
+    padding: 10px 0px 20px 0px;
+  }
+
+  .btn h6 {
+    font-size: 16px;
+  }
+
+  .btn-description-text p {
+    width: 250px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-container-desafio {
+    justify-content: left;
+  }
+}

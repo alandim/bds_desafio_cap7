@@ -1,0 +1,140 @@
+.home-container-desafio {
+  padding: 20px 10px 120px 10px;
+  font-size: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.home-card-desafio {
+  padding: 20px 10px 0px 10px;
+  align-self: left;
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 20px;
+  background-color: #00285f;
+  margin-bottom: 20px;
+}
+
+.home-content-container-desafio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px 25px 10px;
+}
+
+.home-content-container-desafio h1 {
+  width: 260px;
+  font-size: 1em;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.home-content-container-desafio p {
+  width: 260px;
+  font-size: 0.7em;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.home-image-container-desafio {
+  padding: 50px 10px;
+}
+
+.home-image-container-desafio svg {
+  width: 80%;
+  height: auto;
+}
+
+@media (min-width: 576px) {
+  .home-container-desafio {
+    padding: 30px 10px 120px 10px;
+    font-size: 40px;
+  }
+
+  .home-card-desafio {
+    margin-bottom: 30px;
+  }
+
+  .home-content-container-desafio h1 {
+    width: 506px;
+    margin-bottom: 20px;
+  }
+
+  .home-content-container-desafio p {
+    width: 506px;
+    margin-bottom: 20px;
+  }
+
+  .home-image-container-desafio svg {
+    width: 420px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-container-desafio {
+    padding: 40px;
+    font-size: 30px;
+  }
+
+  .home-image-container-desafio {
+    padding: 100px 20px;
+  }
+
+  .home-content-container-desafio {
+    padding: 20px, 20px, 100px, 20px;
+  }
+
+  .home-image-container-desafio svg {
+    width: 520px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-container-desafio {
+    padding: 40px;
+    font-size: 44px;
+  }
+
+  .home-image-container-desafio {
+    padding: 125px 20px;
+  }
+
+  .home-content-container-desafio {
+    padding: 20px, 20px, 150px, 20px;
+  }
+
+  .home-content-container-desafio h1 {
+    width: 700px;
+    margin-bottom: 26px;
+  }
+
+  .home-content-container-desafio p {
+    width: 700px;
+    margin-bottom: 47px;
+  }
+}
+
+  @media (min-width: 1440px) {
+    .home-content-container-desafio {
+      font-size: 40px;
+      height: 480px;
+      width: 700px;
+      padding: 150px 20px;
+      text-align: left;
+    }
+
+    .home-content-container-desafio h1 {
+      width: 700px;
+      margin-bottom: 2px
+      ;
+    }
+
+    .home-image-container-desafio svg {
+      width: 320px;
+    }
+
+    .home-card-desafio {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+}
